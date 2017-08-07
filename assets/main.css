@@ -1,0 +1,74 @@
+		* {
+			font-family: "Mitr", sans-serif;
+		}
+		#trigger2 {
+			position: absolute;
+			top: 1000px;
+		}
+		.info {
+			position: fixed;
+			top: 30%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			z-index: 99;
+		}
+		#pin1 {
+			position: fixed;
+			z-index: 2;
+			bottom: 0;
+			background-image: url("/assets/img/crop.png");
+			background-size: contain;
+			background-repeat: no-repeat;
+			width: 100vw;
+			height: 50%;
+			background-position: bottom;
+		}
+		#iss {
+			z-index: 2;
+			background-image: url("/assets/img/iss.png");
+			width: 200px;
+			height: 200px;
+			bottom: 200px;
+			background-repeat: no-repeat;
+			background-size: contain;
+			position: fixed;
+			left: 10vw;
+			transform: translate(-10%, 60%);
+		}
+		#satellite {
+			z-index: 2;
+			background-image: url("/assets/img/satellite.png");
+			width: 50px;
+			height: 50px;
+			background-repeat: no-repeat;
+			background-size: contain;
+			position: fixed;
+			left: 70vw;
+			transform: translate(-70%, 75%);
+		}
+		#cloud {
+			background-image: url(/assets/img/cloud.png);
+			width: 10vw;
+			height: auto;
+			background-repeat: no-repeat;
+			position: absolute;
+		}
+		.space {
+			background-color: #e1f5fe;
+			transition: all 200ms;
+		}
+
+		.credit {
+			color: white;
+		}
+		.moon {
+			background-image: url("/assets/img/moon.png");
+			position: fixed;
+			top: -100px;
+			display: none;
+			left: 50%;
+			transform: translate(-50%);
+			width: 200px;
+			height: 200px;
+			background-size: cover;
+		}
